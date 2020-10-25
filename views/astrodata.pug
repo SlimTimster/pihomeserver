@@ -1,0 +1,34 @@
+doctype html  
+html(lang='en')  
+ head
+   title pihomeserver
+   link(rel='stylesheet', type='text/css', href='css/main.css')
+ body
+   div.navbar 
+     a(href='/potd') NASA Picture of the Day
+     a(href='' id='selectedTab') Astro Data Berlin
+   div.container
+     article Moonrise
+       time= moonrise_time
+     article Moonset
+       time= moonset_time
+     article Moon altitude(°)
+       time= moon_alt
+     article Moon distance(km)
+       time= moon_dist
+     article Moon azimuth(°)
+       time= moon_azi
+     article Moon parallactic angle(°)
+       time= moon_parang  
+
+     br
+     br
+     br
+
+     article Sunrise
+       time= sunrise_time
+     article Sunset
+       time= sunset_time
+   
+   footer
+    p(id='footer') Made by Tim G | 2020

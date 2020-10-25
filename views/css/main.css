@@ -1,0 +1,58 @@
+* {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+title,
+h1,
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+    text-align: justify;
+}
+
+.navbar a {
+    display: inline-block;
+    width: 50%;
+    text-decoration: none;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 2em;
+}
+
+#selectedTab {
+    background-color: #202020;
+}
+
+#footer {
+    font-style: italic;
+    color: grey;
+    padding-top: 6rem;
+}
+
+
+/* ________________________  For AstroData Tab  ________________________*/
+
+article,
+time {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+article:first-child {
+    padding-top: 4rem;
+}
+
+
+/* Darkmode: Lila: #BB86FC, Dunkelblau: #3700B3, Türkis: #03DAC6, Rot: #CF6679 */

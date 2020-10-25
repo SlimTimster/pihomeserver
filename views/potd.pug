@@ -1,0 +1,15 @@
+doctype html  
+html(lang='en')  
+ head
+   title pihomeserver
+   link(rel='stylesheet', type='text/css', href='css/main.css')
+ body
+   div.navbar 
+     a(href='' id='selectedTab') NASA Picture of the Day
+     a(href='/astrodata') Astro Data Berlin
+   div.container
+     img(src=potd_url)
+     p= potd_explanation
+  
+ footer
+   p(id='footer') Made by Tim G | 2020
